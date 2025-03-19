@@ -1,5 +1,4 @@
 ﻿import os
-import re
 import requests
 import datetime
 import uuid
@@ -11,7 +10,10 @@ import logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[logging.FileHandler("process.log"), logging.StreamHandler()]
+    handlers=[
+        logging.FileHandler("process.log", encoding="utf-8"),  # 指定编码为 utf-8
+        logging.StreamHandler()
+    ]
 )
 
 # 七牛云配置
@@ -88,25 +90,6 @@ def replace_image_urls(html_content):
             img['src'] = new_img_url
         else:
             logging.warning(f"跳过无法上传的图片: {img_url}")
-
-    # 替换 CSS 样式中的背景图片
-    styles = soup.find_all(style=lambda style: style and "background-image" in style)
-    for style_tag in styles:
-        style_content = style_tag['style']
-        pattern = r'background-image:\s*url\(([^)]+)\)'
-        matches = re.findall(pattern, style_content)
-        for match in matches:
-            old_url = match.strip('"\'')  # 去除可能存在的引号
-            if not old_url.startswith("https://mmbiz.qpic"):
-                continue
-
-            # 上传图片到七牛云
-            new_url = upload_to_qiniu(old_url)
-            if new_url:
-                style_content = style_content.replace(match, f'"{new_url}"')
-            else:
-                logging.warning(f"跳过无法上传的背景图片: {old_url}")
-        style_tag['style'] = style_content
 
     return str(soup)
 
