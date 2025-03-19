@@ -78,7 +78,7 @@ def replace_image_urls(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
 
     # 替换 <img> 标签中的图片
-    images = soup.find_all('img', src=lambda src: src and src.startswith("https://mmbiz.qpic"))
+    images = soup.find_all('img', src=lambda src: src and src.startswith("https://"))
     for img in images:
         img_url = img.get('src', '')
         if not img_url:
