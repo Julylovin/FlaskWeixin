@@ -24,16 +24,18 @@ headers = {
     "X-Requested-With": "XMLHttpRequest",
 }
 
-#蛋类及制品
-categoryOne = 19
-categoryOneName = '蛋类及制品'
+#调味品类
+categoryOne = 28
+categoryOneName = '调味品类'
 category_two_map = {
-    80 : '鸡蛋' ,
-    81 : '鸭蛋' ,
-    82 : '鹅蛋' ,
-    83 : '鹌鹑蛋' ,
+    117 : '酱油' ,
+    118 : '醋' ,
+    119 : '酱' ,
+    120 : '腐乳' ,
+    121 : '咸菜类' ,
+    122 : '辛香料' ,
+    123 : '盐、味精及其它' ,
 }
-
 
 
 

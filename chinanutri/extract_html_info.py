@@ -28,17 +28,20 @@ def extract_a_tag_info(html_list):
 
 
 html_list = [
-    '''<div class="food_dl food_box food_bg">
-      <div class="food_dl_top food_border">
-        <h3><a href="foodlist_0_19_0_0_0_1.htm" data_id="19" data_pid="0" target="_blank">蛋类及制品</a></h3>
-      </div>
-      <ul class="food_list">
-        <li><a href="foodlist_0_19_80_0_0_1.htm" data_id="80" data_pid="19" target="_blank">鸡蛋</a></li>
-        <li><a href="foodlist_0_19_81_0_0_1.htm" data_id="81" data_pid="19" target="_blank">鸭蛋</a></li>
-        <li><a href="foodlist_0_19_82_0_0_1.htm" data_id="82" data_pid="19" target="_blank">鹅蛋</a></li>
-        <li><a href="foodlist_0_19_83_0_0_1.htm" data_id="83" data_pid="19" target="_blank">鹌鹑蛋</a></li>                        
-      </ul>
-    </div>''',
+    '''<div class="food_twp food_box food_bg clear">
+     <div class="food_twp_top food_border">
+       <h3><a href="foodlist_0_28_0_0_0_1.htm" data_id="28" data_pid="0" target="_blank">调味品类</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_28_117_0_0_1.htm" data_id="117" data_pid="28" target="_blank">酱油</a></li>
+       <li><a href="foodlist_0_28_118_0_0_1.htm" data_id="118" data_pid="28" target="_blank">醋</a></li>   
+       <li><a href="foodlist_0_28_119_0_0_1.htm" data_id="119" data_pid="28" target="_blank">酱</a></li>    
+       <li><a href="foodlist_0_28_120_0_0_1.htm" data_id="120" data_pid="28" target="_blank">腐乳</a></li> 
+       <li><a href="foodlist_0_28_121_0_0_1.htm" data_id="121" data_pid="28" target="_blank">咸菜类</a></li> 
+       <li><a href="foodlist_0_28_122_0_0_1.htm" data_id="122" data_pid="28" target="_blank">辛香料</a></li> 
+       <li><a href="foodlist_0_28_123_0_0_1.htm" data_id="123" data_pid="28" target="_blank">盐、味精及其它</a></li>          
+     </ul>                 
+   </div>''',
     # 可以添加更多的 HTML 片段
 ]
 
