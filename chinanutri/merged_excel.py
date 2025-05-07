@@ -83,7 +83,7 @@ if all_data:
         merged_df.columns = headers
 
         # 导出到新的 Excel 文件
-        output_file = "merged_data.xlsx"
+        output_file = "中国疾病预防控制中心营养清单.xlsx"
         merged_df.to_excel(output_file, index=False, engine="openpyxl")
         print(f"所有数据已成功导出到 {output_file}")
     except Exception as e:
