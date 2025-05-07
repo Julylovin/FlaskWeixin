@@ -24,18 +24,21 @@ headers = {
     "X-Requested-With": "XMLHttpRequest",
 }
 
-#干豆类及制品
-categoryOne = 11
-categoryOneName  = "干豆类及制品"
-# 定义 categoryTwo 集合
+#蔬菜类及制品
+categoryOne = 12
+categoryOneName = '蔬菜类及制品'
 category_two_map = {
-    "39":"大豆",
-    "40":"绿豆",
-    "41":"赤豆",
-    "42":"芸豆",
-    "43":"蚕豆",
-    "44":"其它"
+    45 : '根菜类' ,
+    46 : '鲜豆类' ,
+    47 : '茄果、瓜菜类' ,
+    48 : '葱蒜类' ,
+    49 : '嫩茎、叶、花菜类' ,
+    50 : '水生蔬菜类' ,
+    51 : '薯芋类' ,
+    52 : '野生蔬菜类' ,
 }
+
+
 
 # 初始化存储所有数据的列表
 all_data = []
@@ -106,7 +109,7 @@ if all_data:
     df = pd.DataFrame(all_data)
 
     # 导出到 Excel 文件
-    output_file = f"food_{categoryOne}.xlsx"
+    output_file = f"food_{categoryOne}_{categoryOneName}.xlsx"
     try:
         df.to_excel(output_file, index=False, engine="openpyxl", header=False)  # 不添加默认表头
         print(f"所有数据已成功导出到 {output_file}")

@@ -1,0 +1,316 @@
+﻿from bs4 import BeautifulSoup
+
+
+def extract_a_tag_info(html_list):
+    all_results = []
+    for html in html_list:
+        soup = BeautifulSoup(html, 'html.parser')
+        h3_a = soup.select_one('h3 a')
+        pid_name = h3_a.text
+        pid = h3_a.get('data_id')
+
+        a_tag_list = []
+        for a in soup.select('ul.food_list li a'):
+            title = a.text
+            data_id = a.get('data_id')
+            data_pid = a.get('data_pid')
+            a_tag_list.append({
+                'title': title,
+                'data_id': data_id,
+                'data_pid': data_pid
+            })
+
+        result = {
+            'pid_name': pid_name,
+            'pid': pid,
+            'list': a_tag_list
+        }
+        all_results.append(result)
+    return all_results
+
+
+html_list = [
+    '''
+ <div class="food_gl food_box food_bg">
+   <div class="food_gl_top food_border">
+     <h3><a href="foodlist_0_1_0_0_0_1.htm" data_id="1" data_pid="0" target="_blank">谷类及制品</a></h3>
+   </div>
+   <ul class="food_list">
+     <li><a href="foodlist_0_1_30_0_0_1.htm" data_id="30" data_pid="1" target="_blank">小麦</a></li>
+     <li><a href="foodlist_0_1_31_0_0_1.htm" data_id="31" data_pid="1" target="_blank">稻米</a></li>
+     <li><a href="foodlist_0_1_32_0_0_1.htm" data_id="32" data_pid="1" target="_blank">玉米</a></li>
+     <li><a href="foodlist_0_1_33_0_0_1.htm" data_id="33" data_pid="1" target="_blank">大麦</a></li>
+     <li><a href="foodlist_0_1_34_0_0_1.htm" data_id="34" data_pid="1" target="_blank">小米、黄米</a></li>
+     <li><a href="foodlist_0_1_35_0_0_1.htm" data_id="35" data_pid="1" target="_blank">其它</a></li>            
+   </ul>
+ </div>
+    ''',
+    '''
+<div class="food_sl food_box food_bg">
+  <div class="food_sl_top food_border">
+    <h3><a href="foodlist_0_10_0_0_0_1.htm" data_id="10" data_pid="0" target="_blank">薯类、淀粉及制品</a></h3>
+  </div>
+  <ul class="food_list">
+    <li><a href="foodlist_0_10_36_0_0_1.htm" data_id="36" data_pid="10" target="_blank">薯类</a></li>
+    <li><a href="foodlist_0_10_37_0_0_1.htm" data_id="37" data_pid="10" target="_blank">淀粉类</a></li>         
+  </ul>
+</div>
+   ''',
+    '''
+   <div class="food_gd food_box food_bg">
+     <div class="food_gd_top food_border">
+       <h3><a href="foodlist_0_11_0_0_0_1.htm" data_id="11" data_pid="0" target="_blank">干豆类及制品</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_11_39_0_0_1.htm" data_id="39" data_pid="11" target="_blank">大豆</a></li>
+       <li><a href="foodlist_0_11_40_0_0_1.htm" data_id="40" data_pid="11" target="_blank">绿豆</a></li>
+       <li><a href="foodlist_0_11_41_0_0_1.htm" data_id="41" data_pid="11" target="_blank">赤豆</a></li>
+       <li><a href="foodlist_0_11_42_0_0_1.htm" data_id="42" data_pid="11" target="_blank">芸豆</a></li>
+       <li><a href="foodlist_0_11_43_0_0_1.htm" data_id="43" data_pid="11" target="_blank">蚕豆</a></li>
+       <li><a href="foodlist_0_11_44_0_0_1.htm" data_id="44" data_pid="11" target="_blank">其它</a></li>                             
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_sc food_box food_bg">
+     <div class="food_sc_top food_border">
+       <h3><a href="foodlist_0_12_0_0_0_1.htm" data_id="12" data_pid="0" target="_blank">蔬菜类及制品</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_12_45_0_0_1.htm" data_id="45" data_pid="12" target="_blank">根菜类</a></li>
+       <li><a href="foodlist_0_12_46_0_0_1.htm" data_id="46" data_pid="12" target="_blank">鲜豆类</a></li>
+       <li><a href="foodlist_0_12_47_0_0_1.htm" data_id="47" data_pid="12" target="_blank">茄果、瓜菜类</a></li>
+       <li><a href="foodlist_0_12_48_0_0_1.htm" data_id="48" data_pid="12" target="_blank">葱蒜类</a></li>
+       <li><a href="foodlist_0_12_49_0_0_1.htm" data_id="49" data_pid="12" target="_blank">嫩茎、叶、花菜类</a></li>
+       <li><a href="foodlist_0_12_50_0_0_1.htm" data_id="50" data_pid="12" target="_blank">水生蔬菜类</a></li>
+       <li><a href="foodlist_0_12_51_0_0_1.htm" data_id="51" data_pid="12" target="_blank">薯芋类</a></li>
+       <li><a href="foodlist_0_12_52_0_0_1.htm" data_id="52" data_pid="12" target="_blank">野生蔬菜类</a></li>
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_jl food_box food_bg clear">
+     <div class="food_jl_top food_border">
+       <h3><a href="foodlist_0_13_0_0_0_1.htm" data_id="13" data_pid="0" target="_blank">菌藻类</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_13_53_0_0_1.htm" data_id="53" data_pid="13" target="_blank">菌类</a></li>
+       <li><a href="foodlist_0_13_54_0_0_1.htm" data_id="54" data_pid="13" target="_blank">藻类</a></li>          
+     </ul>
+   </div>
+      ''',
+    '''
+    <div class="food_sg food_box food_bg">
+     <div class="food_sg_top food_border">
+       <h3><a href="foodlist_0_14_0_0_0_1.htm" data_id="14" data_pid="0" target="_blank">水果类及制品</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_14_55_0_0_1.htm" data_id="55" data_pid="14" target="_blank">仁果类</a></li>
+       <li><a href="foodlist_0_14_56_0_0_1.htm" data_id="56" data_pid="14" target="_blank">核果类</a></li>
+       <li><a href="foodlist_0_14_57_0_0_1.htm" data_id="57" data_pid="14" target="_blank">浆果类</a></li>
+       <li><a href="foodlist_0_14_58_0_0_1.htm" data_id="58" data_pid="14" target="_blank">柑橘类</a></li>
+       <li><a href="foodlist_0_14_59_0_0_1.htm" data_id="59" data_pid="14" target="_blank">热带、亚热带水果</a></li>
+       <li><a href="foodlist_0_14_60_0_0_1.htm" data_id="60" data_pid="14" target="_blank">瓜果类</a></li>                          
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_jg food_box food_bg">
+     <div class="food_jg_top food_border">
+       <h3><a href="foodlist_0_15_0_0_0_1.htm" data_id="15" data_pid="0" target="_blank">坚果、种子类</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_15_61_0_0_1.htm" data_id="61" data_pid="15" target="_blank">树坚果</a></li>
+       <li><a href="foodlist_0_15_62_0_0_1.htm" data_id="62" data_pid="15" target="_blank">种子</a></li>                       
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_cr food_box food_bg">
+     <div class="food_cr_top food_border">
+       <h3><a href="foodlist_0_16_0_0_0_1.htm" data_id="16" data_pid="0" target="_blank">畜肉类及制品</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_16_63_0_0_1.htm" data_id="63" data_pid="16" target="_blank">猪</a></li>
+       <li><a href="foodlist_0_16_64_0_0_1.htm" data_id="64" data_pid="16" target="_blank">牛</a></li>
+       <li><a href="foodlist_0_16_65_0_0_1.htm" data_id="65" data_pid="16" target="_blank">羊</a></li>
+       <li><a href="foodlist_0_16_66_0_0_1.htm" data_id="66" data_pid="16" target="_blank">驴</a></li>
+       <li><a href="foodlist_0_16_67_0_0_1.htm" data_id="67" data_pid="16" target="_blank">马</a></li>
+       <li><a href="foodlist_0_16_68_0_0_1.htm" data_id="68" data_pid="16" target="_blank">其它</a></li>                             
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_qr food_box food_bg">
+     <div class="food_qr_top food_border">
+       <h3><a href="foodlist_0_17_0_0_0_1.htm" data_id="17" data_pid="0" target="_blank">禽肉类及制品</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_17_69_0_0_1.htm" data_id="69" data_pid="17" target="_blank">鸡</a></li>
+       <li><a href="foodlist_0_17_70_0_0_1.htm" data_id="70" data_pid="17" target="_blank">鸭</a></li>
+       <li><a href="foodlist_0_17_71_0_0_1.htm" data_id="71" data_pid="17" target="_blank">鹅</a></li>
+       <li><a href="foodlist_0_17_72_0_0_1.htm" data_id="72" data_pid="17" target="_blank">火鸡</a></li>
+       <li><a href="foodlist_0_17_73_0_0_1.htm" data_id="73" data_pid="17" target="_blank">其它</a></li>
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_rl food_box food_bg clear">
+     <div class="food_rl_top food_border">
+       <h3><a href="foodlist_0_18_0_0_0_1.htm" data_id="18" data_pid="0" target="_blank">乳类及制品</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_18_74_0_0_1.htm" data_id="74" data_pid="18" target="_blank">液态乳</a></li>
+       <li><a href="foodlist_0_18_75_0_0_1.htm" data_id="75" data_pid="18" target="_blank">奶粉</a></li>   
+       <li><a href="foodlist_0_18_76_0_0_1.htm" data_id="76" data_pid="18" target="_blank">酸奶</a></li>
+       <li><a href="foodlist_0_18_77_0_0_1.htm" data_id="77" data_pid="18" target="_blank">奶酪</a></li>
+       <li><a href="foodlist_0_18_78_0_0_1.htm" data_id="78" data_pid="18" target="_blank">奶油</a></li>
+       <li><a href="foodlist_0_18_79_0_0_1.htm" data_id="79" data_pid="18" target="_blank">其它</a></li>                
+     </ul>
+   </div>
+      ''',
+    '''
+    <div class="food_dl food_box food_bg">
+      <div class="food_dl_top food_border">
+        <h3><a href="foodlist_0_19_0_0_0_1.htm" data_id="19" data_pid="0" target="_blank">蛋类及制品</a></h3>
+      </div>
+      <ul class="food_list">
+        <li><a href="foodlist_0_19_80_0_0_1.htm" data_id="80" data_pid="19" target="_blank">鸡蛋</a></li>
+        <li><a href="foodlist_0_19_81_0_0_1.htm" data_id="81" data_pid="19" target="_blank">鸭蛋</a></li>
+        <li><a href="foodlist_0_19_82_0_0_1.htm" data_id="82" data_pid="19" target="_blank">鹅蛋</a></li>
+        <li><a href="foodlist_0_19_83_0_0_1.htm" data_id="83" data_pid="19" target="_blank">鹌鹑蛋</a></li>                        
+      </ul>
+    </div>
+       ''',
+    '''
+   <div class="food_yx food_box food_bg">
+     <div class="food_yx_top food_border">
+       <h3><a href="foodlist_0_20_0_0_0_1.htm" data_id="20" data_pid="0" target="_blank">鱼虾蟹贝类</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_20_84_0_0_1.htm" data_id="84" data_pid="20" target="_blank">鱼</a></li>
+       <li><a href="foodlist_0_20_85_0_0_1.htm" data_id="85" data_pid="20" target="_blank">虾</a></li>
+       <li><a href="foodlist_0_20_86_0_0_1.htm" data_id="86" data_pid="20" target="_blank">蟹</a></li>
+       <li><a href="foodlist_0_20_87_0_0_1.htm" data_id="87" data_pid="20" target="_blank">贝</a></li>    
+       <li><a href="foodlist_0_20_88_0_0_1.htm" data_id="88" data_pid="20" target="_blank">其它</a></li>                 
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_baby food_box food_bg">
+     <div class="food_baby_top food_border">
+       <h3><a href="foodlist_0_21_0_0_0_1.htm" data_id="21" data_pid="0" target="_blank">婴幼儿食品</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_21_89_0_0_1.htm" data_id="89" data_pid="21" target="_blank">婴幼儿配方粉 </a></li>
+       <li><a href="foodlist_0_21_90_0_0_1.htm" data_id="90" data_pid="21" target="_blank">婴幼儿断奶期辅助食品</a></li>
+       <li><a href="foodlist_0_21_91_0_0_1.htm" data_id="91" data_pid="21" target="_blank">婴幼儿补充食品  </a></li>                     
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_xc food_box food_bg">
+     <div class="food_xc_top food_border">
+       <h3><a href="foodlist_0_22_0_0_0_1.htm" data_id="22" data_pid="0" target="_blank">小吃、甜饼</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_22_92_0_0_1.htm" data_id="92" data_pid="22" target="_blank">小吃</a></li>
+       <li><a href="foodlist_0_22_93_0_0_1.htm" data_id="93" data_pid="22" target="_blank">蛋糕、甜点</a></li>
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_ss food_box food_bg clear">
+     <div class="food_ss_top food_border">
+       <h3><a href="foodlist_0_23_0_0_0_1.htm" data_id="23" data_pid="0" target="_blank">速食食品</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_23_125_0_0_1.htm" data_id="125" data_pid="23" target="_blank">快餐食品</a></li>
+       <li><a href="foodlist_0_23_126_0_0_1.htm" data_id="126" data_pid="23" target="_blank">方便食品</a></li>   
+       <li><a href="foodlist_0_23_127_0_0_1.htm" data_id="127" data_pid="23" target="_blank">休闲食品</a></li>             
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_yl food_box food_bg">
+     <div class="food_yl_top food_border">
+       <h3><a href="foodlist_0_24_0_0_0_1.htm" data_id="24" data_pid="0" target="_blank">饮料类</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_24_100_0_0_1.htm" data_id="100" data_pid="24" target="_blank">碳酸饮料</a></li>
+       <li><a href="foodlist_0_24_101_0_0_1.htm" data_id="101" data_pid="24" target="_blank">果汁及其饮料</a></li>
+       <li><a href="foodlist_0_24_102_0_0_1.htm" data_id="102" data_pid="24" target="_blank">蔬菜汁饮料</a></li>
+       <li><a href="foodlist_0_24_103_0_0_1.htm" data_id="103" data_pid="24" target="_blank">含乳饮料</a></li>   
+       <li><a href="foodlist_0_24_104_0_0_1.htm" data_id="104" data_pid="24" target="_blank">植物蛋白饮料 </a></li>
+       <li><a href="foodlist_0_24_105_0_0_1.htm" data_id="105" data_pid="24" target="_blank">茶叶及茶饮料</a></li>
+       <li><a href="foodlist_0_24_106_0_0_1.htm" data_id="106" data_pid="24" target="_blank">固体饮料</a></li>
+       <li><a href="foodlist_0_24_107_0_0_1.htm" data_id="107" data_pid="24" target="_blank">棒冰、冰淇凌</a></li> 
+       <li><a href="foodlist_0_24_108_0_0_1.htm" data_id="108" data_pid="24" target="_blank">其它</a></li>                    
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_jj food_box food_bg">
+     <div class="food_jj_top food_border">
+       <h3><a href="foodlist_0_25_0_0_0_1.htm" data_id="25" data_pid="0" target="_blank">含酒精饮料</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_25_109_0_0_1.htm" data_id="109" data_pid="25" target="_blank">发酵酒</a></li>
+       <li><a href="foodlist_0_25_110_0_0_1.htm" data_id="110" data_pid="25" target="_blank">蒸馏酒</a></li>
+       <li><a href="foodlist_0_25_111_0_0_1.htm" data_id="111" data_pid="25" target="_blank">露酒（配制酒）</a></li>
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_tg food_box food_bg">
+     <div class="food_tg_top food_border">
+       <h3><a href="foodlist_0_26_0_0_0_1.htm" data_id="26" data_pid="0" target="_blank">糖、果脯和蜜饯、蜂蜜</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_26_112_0_0_1.htm" data_id="112" data_pid="26" target="_blank">糖</a></li>
+       <li><a href="foodlist_0_26_113_0_0_1.htm" data_id="113" data_pid="26" target="_blank">糖果</a></li>
+       <li><a href="foodlist_0_26_114_0_0_1.htm" data_id="114" data_pid="26" target="_blank">果脯和蜜饯</a></li>
+       <li><a href="foodlist_0_26_128_0_0_1.htm" data_id="128" data_pid="26" target="_blank">蜂蜜</a></li>                                         
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_yz food_box food_bg">
+     <div class="food_yz_top food_border">
+       <h3><a href="foodlist_0_27_0_0_0_1.htm" data_id="27" data_pid="0" target="_blank">油脂类</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_27_115_0_0_1.htm" data_id="115" data_pid="27" target="_blank">动物油脂</a></li>
+       <li><a href="foodlist_0_27_116_0_0_1.htm" data_id="116" data_pid="27" target="_blank">植物油</a></li> 
+     </ul>
+   </div>
+      ''',
+    '''
+   <div class="food_twp food_box food_bg clear">
+     <div class="food_twp_top food_border">
+       <h3><a href="foodlist_0_28_0_0_0_1.htm" data_id="28" data_pid="0" target="_blank">调味品类</a></h3>
+     </div>
+     <ul class="food_list">
+       <li><a href="foodlist_0_28_117_0_0_1.htm" data_id="117" data_pid="28" target="_blank">酱油</a></li>
+       <li><a href="foodlist_0_28_118_0_0_1.htm" data_id="118" data_pid="28" target="_blank">醋</a></li>   
+       <li><a href="foodlist_0_28_119_0_0_1.htm" data_id="119" data_pid="28" target="_blank">酱</a></li>    
+       <li><a href="foodlist_0_28_120_0_0_1.htm" data_id="120" data_pid="28" target="_blank">腐乳</a></li> 
+       <li><a href="foodlist_0_28_121_0_0_1.htm" data_id="121" data_pid="28" target="_blank">咸菜类</a></li> 
+       <li><a href="foodlist_0_28_122_0_0_1.htm" data_id="122" data_pid="28" target="_blank">辛香料</a></li> 
+       <li><a href="foodlist_0_28_123_0_0_1.htm" data_id="123" data_pid="28" target="_blank">盐、味精及其它</a></li>          
+     </ul>                 
+   </div>
+      ''',
+
+    # 可以添加更多的 HTML 片段
+]
+
+final_result = extract_a_tag_info(html_list)
+
+# 直接使用 final_result 变量
+# 示例：打印第一个元素的 pid_name
+print(final_result[0]['pid_name'])
+
+# 示例：遍历 list 里的每个元素并打印 title
+for item in final_result[0]['list']:
+    print(item['title'])
