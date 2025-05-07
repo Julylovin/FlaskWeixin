@@ -24,19 +24,16 @@ headers = {
     "X-Requested-With": "XMLHttpRequest",
 }
 
-#蔬菜类及制品
-categoryOne = 12
-categoryOneName = '蔬菜类及制品'
+#蛋类及制品
+categoryOne = 19
+categoryOneName = '蛋类及制品'
 category_two_map = {
-    45 : '根菜类' ,
-    46 : '鲜豆类' ,
-    47 : '茄果、瓜菜类' ,
-    48 : '葱蒜类' ,
-    49 : '嫩茎、叶、花菜类' ,
-    50 : '水生蔬菜类' ,
-    51 : '薯芋类' ,
-    52 : '野生蔬菜类' ,
+    80 : '鸡蛋' ,
+    81 : '鸭蛋' ,
+    82 : '鹅蛋' ,
+    83 : '鹌鹑蛋' ,
 }
+
 
 
 

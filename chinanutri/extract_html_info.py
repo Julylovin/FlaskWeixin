@@ -28,23 +28,17 @@ def extract_a_tag_info(html_list):
 
 
 html_list = [
-    '''
-    <div class="food_sc food_box food_bg">
-     <div class="food_sc_top food_border">
-       <h3><a href="foodlist_0_12_0_0_0_1.htm" data_id="12" data_pid="0" target="_blank">蔬菜类及制品</a></h3>
-     </div>
-     <ul class="food_list">
-       <li><a href="foodlist_0_12_45_0_0_1.htm" data_id="45" data_pid="12" target="_blank">根菜类</a></li>
-       <li><a href="foodlist_0_12_46_0_0_1.htm" data_id="46" data_pid="12" target="_blank">鲜豆类</a></li>
-       <li><a href="foodlist_0_12_47_0_0_1.htm" data_id="47" data_pid="12" target="_blank">茄果、瓜菜类</a></li>
-       <li><a href="foodlist_0_12_48_0_0_1.htm" data_id="48" data_pid="12" target="_blank">葱蒜类</a></li>
-       <li><a href="foodlist_0_12_49_0_0_1.htm" data_id="49" data_pid="12" target="_blank">嫩茎、叶、花菜类</a></li>
-       <li><a href="foodlist_0_12_50_0_0_1.htm" data_id="50" data_pid="12" target="_blank">水生蔬菜类</a></li>
-       <li><a href="foodlist_0_12_51_0_0_1.htm" data_id="51" data_pid="12" target="_blank">薯芋类</a></li>
-       <li><a href="foodlist_0_12_52_0_0_1.htm" data_id="52" data_pid="12" target="_blank">野生蔬菜类</a></li>
-     </ul>
-   </div>
-    ''',
+    '''<div class="food_dl food_box food_bg">
+      <div class="food_dl_top food_border">
+        <h3><a href="foodlist_0_19_0_0_0_1.htm" data_id="19" data_pid="0" target="_blank">蛋类及制品</a></h3>
+      </div>
+      <ul class="food_list">
+        <li><a href="foodlist_0_19_80_0_0_1.htm" data_id="80" data_pid="19" target="_blank">鸡蛋</a></li>
+        <li><a href="foodlist_0_19_81_0_0_1.htm" data_id="81" data_pid="19" target="_blank">鸭蛋</a></li>
+        <li><a href="foodlist_0_19_82_0_0_1.htm" data_id="82" data_pid="19" target="_blank">鹅蛋</a></li>
+        <li><a href="foodlist_0_19_83_0_0_1.htm" data_id="83" data_pid="19" target="_blank">鹌鹑蛋</a></li>                        
+      </ul>
+    </div>''',
     # 可以添加更多的 HTML 片段
 ]
 
