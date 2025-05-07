@@ -1,0 +1,2552 @@
+[
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "东城区",
+        "city_id": "110101"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "西城区",
+        "city_id": "110102"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "朝阳区",
+        "city_id": "110105"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "丰台区",
+        "city_id": "110106"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "石景山区",
+        "city_id": "110107"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "海淀区",
+        "city_id": "110108"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "门头沟区",
+        "city_id": "110109"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "房山区",
+        "city_id": "110111"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "通州区",
+        "city_id": "110112"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "顺义区",
+        "city_id": "110113"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "昌平区",
+        "city_id": "110114"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "大兴区",
+        "city_id": "110115"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "怀柔区",
+        "city_id": "110116"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "平谷区",
+        "city_id": "110117"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "密云区",
+        "city_id": "110118"
+    },
+    {
+        "province_name": "北京",
+        " province_id": "11",
+        "city_name": "延庆区",
+        "city_id": "110119"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "和平区",
+        "city_id": "120101"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "河东区",
+        "city_id": "120102"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "河西区",
+        "city_id": "120103"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "南开区",
+        "city_id": "120104"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "河北区",
+        "city_id": "120105"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "红桥区",
+        "city_id": "120106"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "东丽区",
+        "city_id": "120110"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "西青区",
+        "city_id": "120111"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "津南区",
+        "city_id": "120112"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "北辰区",
+        "city_id": "120113"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "武清区",
+        "city_id": "120114"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "宝坻区",
+        "city_id": "120115"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "滨海新区",
+        "city_id": "120116"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "宁河区",
+        "city_id": "120117"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "静海区",
+        "city_id": "120118"
+    },
+    {
+        "province_name": "天津",
+        " province_id": "12",
+        "city_name": "蓟州区",
+        "city_id": "120119"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "石家庄市",
+        "city_id": "1301"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "唐山市",
+        "city_id": "1302"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "秦皇岛市",
+        "city_id": "1303"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "邯郸市",
+        "city_id": "1304"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "邢台市",
+        "city_id": "1305"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "保定市",
+        "city_id": "1306"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "张家口市",
+        "city_id": "1307"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "承德市",
+        "city_id": "1308"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "沧州市",
+        "city_id": "1309"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "廊坊市",
+        "city_id": "1310"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "衡水市",
+        "city_id": "1311"
+    },
+    {
+        "province_name": "河北省",
+        " province_id": "13",
+        "city_name": "雄安新区",
+        "city_id": "1331"
+    },
+    {
+        "province_name": "山西",
+        " province_id": "14",
+        "city_name": "太原市",
+        "city_id": "1401"
+    },
+    {
+        "province_name": "山西",
+        " province_id": "14",
+        "city_name": "大同市",
+        "city_id": "1402"
+    },
+    {
+        "province_name": "山西",
+        " province_id": "14",
+        "city_name": "阳泉市",
+        "city_id": "1403"
+    },
+    {
+        "province_name": "山西",
+        " province_id": "14",
+        "city_name": "长治市",
+        "city_id": "1404"
+    },
+    {
+        "province_name": "山西",
+        " province_id": "14",
+        "city_name": "晋城市",
+        "city_id": "1405"
+    },
+    {
+        "province_name": "山西",
+        " province_id": "14",
+        "city_name": "朔州市",
+        "city_id": "1406"
+    },
+    {
+        "province_name": "山西",
+        " province_id": "14",
+        "city_name": "晋中市",
+        "city_id": "1407"
+    },
+    {
+        "province_name": "山西",
+        " province_id": "14",
+        "city_name": "运城市",
+        "city_id": "1408"
+    },
+    {
+        "province_name": "山西",
+        " province_id": "14",
+        "city_name": "忻州市",
+        "city_id": "1409"
+    },
+    {
+        "province_name": "山西",
+        " province_id": "14",
+        "city_name": "临汾市",
+        "city_id": "1410"
+    },
+    {
+        "province_name": "山西",
+        " province_id": "14",
+        "city_name": "吕梁市",
+        "city_id": "1411"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "呼和浩特市...",
+        "city_id": "1501"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "包头市",
+        "city_id": "1502"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "乌海市",
+        "city_id": "1503"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "赤峰市",
+        "city_id": "1504"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "通辽市",
+        "city_id": "1505"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "鄂尔多斯市...",
+        "city_id": "1506"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "呼伦贝尔市...",
+        "city_id": "1507"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "巴彦淖尔市...",
+        "city_id": "1508"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "乌兰察布市...",
+        "city_id": "1509"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "兴安盟",
+        "city_id": "1522"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "锡林郭勒盟...",
+        "city_id": "1525"
+    },
+    {
+        "province_name": "内蒙古自治区",
+        " province_id": "15",
+        "city_name": "阿拉善盟",
+        "city_id": "1529"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "沈阳市",
+        "city_id": "2101"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "大连市",
+        "city_id": "2102"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "鞍山市",
+        "city_id": "2103"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "抚顺市",
+        "city_id": "2104"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "本溪市",
+        "city_id": "2105"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "丹东市",
+        "city_id": "2106"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "锦州市",
+        "city_id": "2107"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "营口市",
+        "city_id": "2108"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "阜新市",
+        "city_id": "2109"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "辽阳市",
+        "city_id": "2110"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "盘锦市",
+        "city_id": "2111"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "铁岭市",
+        "city_id": "2112"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "朝阳市",
+        "city_id": "2113"
+    },
+    {
+        "province_name": "辽宁省",
+        " province_id": "21",
+        "city_name": "葫芦岛市",
+        "city_id": "2114"
+    },
+    {
+        "province_name": "吉林省",
+        " province_id": "22",
+        "city_name": "长春市",
+        "city_id": "2201"
+    },
+    {
+        "province_name": "吉林省",
+        " province_id": "22",
+        "city_name": "吉林市",
+        "city_id": "2202"
+    },
+    {
+        "province_name": "吉林省",
+        " province_id": "22",
+        "city_name": "四平市",
+        "city_id": "2203"
+    },
+    {
+        "province_name": "吉林省",
+        " province_id": "22",
+        "city_name": "辽源市",
+        "city_id": "2204"
+    },
+    {
+        "province_name": "吉林省",
+        " province_id": "22",
+        "city_name": "通化市",
+        "city_id": "2205"
+    },
+    {
+        "province_name": "吉林省",
+        " province_id": "22",
+        "city_name": "白山市",
+        "city_id": "2206"
+    },
+    {
+        "province_name": "吉林省",
+        " province_id": "22",
+        "city_name": "松原市",
+        "city_id": "2207"
+    },
+    {
+        "province_name": "吉林省",
+        " province_id": "22",
+        "city_name": "白城市",
+        "city_id": "2208"
+    },
+    {
+        "province_name": "吉林省",
+        " province_id": "22",
+        "city_name": "延边朝鲜族...",
+        "city_id": "2224"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "哈尔滨市",
+        "city_id": "2301"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "齐齐哈尔市...",
+        "city_id": "2302"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "鸡西市",
+        "city_id": "2303"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "鹤岗市",
+        "city_id": "2304"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "双鸭山市",
+        "city_id": "2305"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "大庆市",
+        "city_id": "2306"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "伊春市",
+        "city_id": "2307"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "佳木斯市",
+        "city_id": "2308"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "七台河市",
+        "city_id": "2309"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "牡丹江市",
+        "city_id": "2310"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "黑河市",
+        "city_id": "2311"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "绥化市",
+        "city_id": "2312"
+    },
+    {
+        "province_name": "黑龙江省",
+        " province_id": "23",
+        "city_name": "大兴安岭地...",
+        "city_id": "2327"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "黄浦区",
+        "city_id": "310101"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "徐汇区",
+        "city_id": "310104"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "长宁区",
+        "city_id": "310105"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "静安区",
+        "city_id": "310106"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "普陀区",
+        "city_id": "310107"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "虹口区",
+        "city_id": "310109"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "杨浦区",
+        "city_id": "310110"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "闵行区",
+        "city_id": "310112"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "宝山区",
+        "city_id": "310113"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "嘉定区",
+        "city_id": "310114"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "浦东新区",
+        "city_id": "310115"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "金山区",
+        "city_id": "310116"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "松江区",
+        "city_id": "310117"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "青浦区",
+        "city_id": "310118"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "奉贤区",
+        "city_id": "310120"
+    },
+    {
+        "province_name": "上海",
+        " province_id": "31",
+        "city_name": "崇明区",
+        "city_id": "310151"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "南京市",
+        "city_id": "3201"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "无锡市",
+        "city_id": "3202"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "徐州市",
+        "city_id": "3203"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "常州市",
+        "city_id": "3204"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "苏州市",
+        "city_id": "3205"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "南通市",
+        "city_id": "3206"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "连云港市",
+        "city_id": "3207"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "淮安市",
+        "city_id": "3208"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "盐城市",
+        "city_id": "3209"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "扬州市",
+        "city_id": "3210"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "镇江市",
+        "city_id": "3211"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "泰州市",
+        "city_id": "3212"
+    },
+    {
+        "province_name": "江苏省",
+        " province_id": "32",
+        "city_name": "宿迁市",
+        "city_id": "3213"
+    },
+    {
+        "province_name": "浙江省",
+        " province_id": "33",
+        "city_name": "杭州市",
+        "city_id": "3301"
+    },
+    {
+        "province_name": "浙江省",
+        " province_id": "33",
+        "city_name": "宁波市",
+        "city_id": "3302"
+    },
+    {
+        "province_name": "浙江省",
+        " province_id": "33",
+        "city_name": "温州市",
+        "city_id": "3303"
+    },
+    {
+        "province_name": "浙江省",
+        " province_id": "33",
+        "city_name": "嘉兴市",
+        "city_id": "3304"
+    },
+    {
+        "province_name": "浙江省",
+        " province_id": "33",
+        "city_name": "湖州市",
+        "city_id": "3305"
+    },
+    {
+        "province_name": "浙江省",
+        " province_id": "33",
+        "city_name": "绍兴市",
+        "city_id": "3306"
+    },
+    {
+        "province_name": "浙江省",
+        " province_id": "33",
+        "city_name": "金华市",
+        "city_id": "3307"
+    },
+    {
+        "province_name": "浙江省",
+        " province_id": "33",
+        "city_name": "衢州市",
+        "city_id": "3308"
+    },
+    {
+        "province_name": "浙江省",
+        " province_id": "33",
+        "city_name": "舟山市",
+        "city_id": "3309"
+    },
+    {
+        "province_name": "浙江省",
+        " province_id": "33",
+        "city_name": "台州市",
+        "city_id": "3310"
+    },
+    {
+        "province_name": "浙江省",
+        " province_id": "33",
+        "city_name": "丽水市",
+        "city_id": "3311"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "合肥市",
+        "city_id": "3401"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "芜湖市",
+        "city_id": "3402"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "蚌埠市",
+        "city_id": "3403"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "淮南市",
+        "city_id": "3404"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "马鞍山市",
+        "city_id": "3405"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "淮北市",
+        "city_id": "3406"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "铜陵市",
+        "city_id": "3407"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "安庆市",
+        "city_id": "3408"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "黄山市",
+        "city_id": "3410"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "滁州市",
+        "city_id": "3411"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "阜阳市",
+        "city_id": "3412"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "宿州市",
+        "city_id": "3413"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "六安市",
+        "city_id": "3415"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "亳州市",
+        "city_id": "3416"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "池州市",
+        "city_id": "3417"
+    },
+    {
+        "province_name": "安徽省",
+        " province_id": "34",
+        "city_name": "宣城市",
+        "city_id": "3418"
+    },
+    {
+        "province_name": "福建省",
+        " province_id": "35",
+        "city_name": "福州市",
+        "city_id": "3501"
+    },
+    {
+        "province_name": "福建省",
+        " province_id": "35",
+        "city_name": "厦门市",
+        "city_id": "3502"
+    },
+    {
+        "province_name": "福建省",
+        " province_id": "35",
+        "city_name": "莆田市",
+        "city_id": "3503"
+    },
+    {
+        "province_name": "福建省",
+        " province_id": "35",
+        "city_name": "三明市",
+        "city_id": "3504"
+    },
+    {
+        "province_name": "福建省",
+        " province_id": "35",
+        "city_name": "泉州市",
+        "city_id": "3505"
+    },
+    {
+        "province_name": "福建省",
+        " province_id": "35",
+        "city_name": "漳州市",
+        "city_id": "3506"
+    },
+    {
+        "province_name": "福建省",
+        " province_id": "35",
+        "city_name": "南平市",
+        "city_id": "3507"
+    },
+    {
+        "province_name": "福建省",
+        " province_id": "35",
+        "city_name": "龙岩市",
+        "city_id": "3508"
+    },
+    {
+        "province_name": "福建省",
+        " province_id": "35",
+        "city_name": "宁德市",
+        "city_id": "3509"
+    },
+    {
+        "province_name": "江西省",
+        " province_id": "36",
+        "city_name": "南昌市",
+        "city_id": "3601"
+    },
+    {
+        "province_name": "江西省",
+        " province_id": "36",
+        "city_name": "景德镇市",
+        "city_id": "3602"
+    },
+    {
+        "province_name": "江西省",
+        " province_id": "36",
+        "city_name": "萍乡市",
+        "city_id": "3603"
+    },
+    {
+        "province_name": "江西省",
+        " province_id": "36",
+        "city_name": "九江市",
+        "city_id": "3604"
+    },
+    {
+        "province_name": "江西省",
+        " province_id": "36",
+        "city_name": "新余市",
+        "city_id": "3605"
+    },
+    {
+        "province_name": "江西省",
+        " province_id": "36",
+        "city_name": "鹰潭市",
+        "city_id": "3606"
+    },
+    {
+        "province_name": "江西省",
+        " province_id": "36",
+        "city_name": "赣州市",
+        "city_id": "3607"
+    },
+    {
+        "province_name": "江西省",
+        " province_id": "36",
+        "city_name": "吉安市",
+        "city_id": "3608"
+    },
+    {
+        "province_name": "江西省",
+        " province_id": "36",
+        "city_name": "宜春市",
+        "city_id": "3609"
+    },
+    {
+        "province_name": "江西省",
+        " province_id": "36",
+        "city_name": "抚州市",
+        "city_id": "3610"
+    },
+    {
+        "province_name": "江西省",
+        " province_id": "36",
+        "city_name": "上饶市",
+        "city_id": "3611"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "济南市",
+        "city_id": "3701"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "青岛市",
+        "city_id": "3702"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "淄博市",
+        "city_id": "3703"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "枣庄市",
+        "city_id": "3704"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "东营市",
+        "city_id": "3705"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "烟台市",
+        "city_id": "3706"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "潍坊市",
+        "city_id": "3707"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "济宁市",
+        "city_id": "3708"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "泰安市",
+        "city_id": "3709"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "威海市",
+        "city_id": "3710"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "日照市",
+        "city_id": "3711"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "莱芜市",
+        "city_id": "3712"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "临沂市",
+        "city_id": "3713"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "德州市",
+        "city_id": "3714"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "聊城市",
+        "city_id": "3715"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "滨州市",
+        "city_id": "3716"
+    },
+    {
+        "province_name": "山东省",
+        " province_id": "37",
+        "city_name": "菏泽市",
+        "city_id": "3717"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "郑州市",
+        "city_id": "4101"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "开封市",
+        "city_id": "4102"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "洛阳市",
+        "city_id": "4103"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "平顶山市",
+        "city_id": "4104"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "安阳市",
+        "city_id": "4105"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "鹤壁市",
+        "city_id": "4106"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "新乡市",
+        "city_id": "4107"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "焦作市",
+        "city_id": "4108"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "濮阳市",
+        "city_id": "4109"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "许昌市",
+        "city_id": "4110"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "漯河市",
+        "city_id": "4111"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "三门峡市",
+        "city_id": "4112"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "南阳市",
+        "city_id": "4113"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "商丘市",
+        "city_id": "4114"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "信阳市",
+        "city_id": "4115"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "周口市",
+        "city_id": "4116"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "驻马店市",
+        "city_id": "4117"
+    },
+    {
+        "province_name": "河南省",
+        " province_id": "41",
+        "city_name": "省直辖县级...",
+        "city_id": "4190"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "武汉市",
+        "city_id": "4201"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "黄石市",
+        "city_id": "4202"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "十堰市",
+        "city_id": "4203"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "宜昌市",
+        "city_id": "4205"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "襄阳市",
+        "city_id": "4206"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "鄂州市",
+        "city_id": "4207"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "荆门市",
+        "city_id": "4208"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "孝感市",
+        "city_id": "4209"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "荆州市",
+        "city_id": "4210"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "黄冈市",
+        "city_id": "4211"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "咸宁市",
+        "city_id": "4212"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "随州市",
+        "city_id": "4213"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "恩施州",
+        "city_id": "4228"
+    },
+    {
+        "province_name": "湖北省",
+        " province_id": "42",
+        "city_name": "省直辖行政...",
+        "city_id": "4290"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "长沙市",
+        "city_id": "4301"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "株洲市",
+        "city_id": "4302"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "湘潭市",
+        "city_id": "4303"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "衡阳市",
+        "city_id": "4304"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "邵阳市",
+        "city_id": "4305"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "岳阳市",
+        "city_id": "4306"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "常德市",
+        "city_id": "4307"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "张家界市",
+        "city_id": "4308"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "益阳市",
+        "city_id": "4309"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "郴州市",
+        "city_id": "4310"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "永州市",
+        "city_id": "4311"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "怀化市",
+        "city_id": "4312"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "娄底市",
+        "city_id": "4313"
+    },
+    {
+        "province_name": "湖南省",
+        " province_id": "43",
+        "city_name": "湘西土家族...",
+        "city_id": "4331"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "广州市",
+        "city_id": "4401"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "韶关市",
+        "city_id": "4402"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "深圳市",
+        "city_id": "4403"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "珠海市",
+        "city_id": "4404"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "汕头市",
+        "city_id": "4405"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "佛山市",
+        "city_id": "4406"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "江门市",
+        "city_id": "4407"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "湛江市",
+        "city_id": "4408"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "茂名市",
+        "city_id": "4409"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "肇庆市",
+        "city_id": "4412"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "惠州市",
+        "city_id": "4413"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "梅州市",
+        "city_id": "4414"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "汕尾市",
+        "city_id": "4415"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "河源市",
+        "city_id": "4416"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "阳江市",
+        "city_id": "4417"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "清远市",
+        "city_id": "4418"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "东莞市",
+        "city_id": "4419"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "中山市",
+        "city_id": "4420"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "潮州市",
+        "city_id": "4451"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "揭阳市",
+        "city_id": "4452"
+    },
+    {
+        "province_name": "广东省",
+        " province_id": "44",
+        "city_name": "云浮市",
+        "city_id": "4453"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "南宁市",
+        "city_id": "4501"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "柳州市",
+        "city_id": "4502"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "桂林市",
+        "city_id": "4503"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "梧州市",
+        "city_id": "4504"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "北海市",
+        "city_id": "4505"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "防城港市",
+        "city_id": "4506"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "钦州市",
+        "city_id": "4507"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "贵港市",
+        "city_id": "4508"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "玉林市",
+        "city_id": "4509"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "百色市",
+        "city_id": "4510"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "贺州市",
+        "city_id": "4511"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "河池市",
+        "city_id": "4512"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "来宾市",
+        "city_id": "4513"
+    },
+    {
+        "province_name": "广西壮族自治区",
+        " province_id": "45",
+        "city_name": "崇左市",
+        "city_id": "4514"
+    },
+    {
+        "province_name": "海南省",
+        " province_id": "46",
+        "city_name": "海口市",
+        "city_id": "4601"
+    },
+    {
+        "province_name": "海南省",
+        " province_id": "46",
+        "city_name": "三亚市",
+        "city_id": "4602"
+    },
+    {
+        "province_name": "海南省",
+        " province_id": "46",
+        "city_name": "三沙市",
+        "city_id": "4603"
+    },
+    {
+        "province_name": "海南省",
+        " province_id": "46",
+        "city_name": "儋州市",
+        "city_id": "4604"
+    },
+    {
+        "province_name": "海南省",
+        " province_id": "46",
+        "city_name": "省直辖县级...",
+        "city_id": "4690"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "万州区",
+        "city_id": "500101"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "涪陵区",
+        "city_id": "500102"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "渝中区",
+        "city_id": "500103"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "大渡口区",
+        "city_id": "500104"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "江北区",
+        "city_id": "500105"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "沙坪坝区",
+        "city_id": "500106"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "九龙坡区",
+        "city_id": "500107"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "南岸区",
+        "city_id": "500108"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "北碚区",
+        "city_id": "500109"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "渝北区",
+        "city_id": "500112"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "巴南区",
+        "city_id": "500113"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "黔江区",
+        "city_id": "500114"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "长寿区",
+        "city_id": "500115"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "江津区",
+        "city_id": "500116"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "合川区",
+        "city_id": "500117"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "永川区",
+        "city_id": "500118"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "南川区",
+        "city_id": "500119"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "铜梁区",
+        "city_id": "500151"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "潼南区",
+        "city_id": "500152"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "荣昌区",
+        "city_id": "500153"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "开州区",
+        "city_id": "500154"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "梁平区",
+        "city_id": "500155"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "武隆区",
+        "city_id": "500156"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "璧山区",
+        "city_id": "500120"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "綦江区",
+        "city_id": "500110"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "大足区",
+        "city_id": "500111"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "城口县",
+        "city_id": "500229"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "丰都县",
+        "city_id": "500230"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "垫江县",
+        "city_id": "500231"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "忠县",
+        "city_id": "500233"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "云阳县",
+        "city_id": "500235"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "奉节县",
+        "city_id": "500236"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "巫山县",
+        "city_id": "500237"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "巫溪县",
+        "city_id": "500238"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "石柱县",
+        "city_id": "500240"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "秀山土家族...",
+        "city_id": "500241"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "酉阳土家族...",
+        "city_id": "500242"
+    },
+    {
+        "province_name": "重庆",
+        " province_id": "50",
+        "city_name": "彭水苗族土...",
+        "city_id": "500243"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "成都市",
+        "city_id": "5101"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "自贡市",
+        "city_id": "5103"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "攀枝花市",
+        "city_id": "5104"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "泸州市",
+        "city_id": "5105"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "德阳市",
+        "city_id": "5106"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "绵阳市",
+        "city_id": "5107"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "广元市",
+        "city_id": "5108"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "遂宁市",
+        "city_id": "5109"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "内江市",
+        "city_id": "5110"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "乐山市",
+        "city_id": "5111"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "南充市",
+        "city_id": "5113"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "眉山市",
+        "city_id": "5114"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "宜宾市",
+        "city_id": "5115"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "广安市",
+        "city_id": "5116"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "达州市",
+        "city_id": "5117"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "雅安市",
+        "city_id": "5118"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "巴中市",
+        "city_id": "5119"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "资阳市",
+        "city_id": "5120"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "阿坝州",
+        "city_id": "5132"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "甘孜藏族自...",
+        "city_id": "5133"
+    },
+    {
+        "province_name": "四川省",
+        " province_id": "51",
+        "city_name": "凉山州",
+        "city_id": "5134"
+    },
+    {
+        "province_name": "贵州省",
+        " province_id": "52",
+        "city_name": "贵阳市",
+        "city_id": "5201"
+    },
+    {
+        "province_name": "贵州省",
+        " province_id": "52",
+        "city_name": "六盘水市",
+        "city_id": "5202"
+    },
+    {
+        "province_name": "贵州省",
+        " province_id": "52",
+        "city_name": "遵义市",
+        "city_id": "5203"
+    },
+    {
+        "province_name": "贵州省",
+        " province_id": "52",
+        "city_name": "安顺市",
+        "city_id": "5204"
+    },
+    {
+        "province_name": "贵州省",
+        " province_id": "52",
+        "city_name": "黔西南州",
+        "city_id": "5223"
+    },
+    {
+        "province_name": "贵州省",
+        " province_id": "52",
+        "city_name": "黔东南苗族...",
+        "city_id": "5226"
+    },
+    {
+        "province_name": "贵州省",
+        " province_id": "52",
+        "city_name": "黔南布依族...",
+        "city_id": "5227"
+    },
+    {
+        "province_name": "贵州省",
+        " province_id": "52",
+        "city_name": "毕节市",
+        "city_id": "5205"
+    },
+    {
+        "province_name": "贵州省",
+        " province_id": "52",
+        "city_name": "铜仁市",
+        "city_id": "5206"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "昆明市",
+        "city_id": "5301"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "曲靖市",
+        "city_id": "5303"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "玉溪市",
+        "city_id": "5304"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "保山市",
+        "city_id": "5305"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "昭通市",
+        "city_id": "5306"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "丽江市",
+        "city_id": "5307"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "临沧市",
+        "city_id": "5309"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "楚雄州",
+        "city_id": "5323"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "红河州",
+        "city_id": "5325"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "文山州",
+        "city_id": "5326"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "西双版纳州...",
+        "city_id": "5328"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "大理州",
+        "city_id": "5329"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "德宏州",
+        "city_id": "5331"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "怒江州",
+        "city_id": "5333"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "迪庆州",
+        "city_id": "5334"
+    },
+    {
+        "province_name": "云南省",
+        " province_id": "53",
+        "city_name": "普洱市",
+        "city_id": "5308"
+    },
+    {
+        "province_name": "西藏自治区",
+        " province_id": "54",
+        "city_name": "拉萨市",
+        "city_id": "5401"
+    },
+    {
+        "province_name": "西藏自治区",
+        " province_id": "54",
+        "city_name": "阿里地区",
+        "city_id": "5425"
+    },
+    {
+        "province_name": "西藏自治区",
+        " province_id": "54",
+        "city_name": "日喀则市",
+        "city_id": "5402"
+    },
+    {
+        "province_name": "西藏自治区",
+        " province_id": "54",
+        "city_name": "昌都市",
+        "city_id": "5403"
+    },
+    {
+        "province_name": "西藏自治区",
+        " province_id": "54",
+        "city_name": "林芝市",
+        "city_id": "5404"
+    },
+    {
+        "province_name": "西藏自治区",
+        " province_id": "54",
+        "city_name": "山南市",
+        "city_id": "5405"
+    },
+    {
+        "province_name": "西藏自治区",
+        " province_id": "54",
+        "city_name": "那曲市",
+        "city_id": "5406"
+    },
+    {
+        "province_name": "陕西省",
+        " province_id": "61",
+        "city_name": "西安市",
+        "city_id": "6101"
+    },
+    {
+        "province_name": "陕西省",
+        " province_id": "61",
+        "city_name": "铜川市",
+        "city_id": "6102"
+    },
+    {
+        "province_name": "陕西省",
+        " province_id": "61",
+        "city_name": "宝鸡市",
+        "city_id": "6103"
+    },
+    {
+        "province_name": "陕西省",
+        " province_id": "61",
+        "city_name": "咸阳市",
+        "city_id": "6104"
+    },
+    {
+        "province_name": "陕西省",
+        " province_id": "61",
+        "city_name": "渭南市",
+        "city_id": "6105"
+    },
+    {
+        "province_name": "陕西省",
+        " province_id": "61",
+        "city_name": "延安市",
+        "city_id": "6106"
+    },
+    {
+        "province_name": "陕西省",
+        " province_id": "61",
+        "city_name": "汉中市",
+        "city_id": "6107"
+    },
+    {
+        "province_name": "陕西省",
+        " province_id": "61",
+        "city_name": "榆林市",
+        "city_id": "6108"
+    },
+    {
+        "province_name": "陕西省",
+        " province_id": "61",
+        "city_name": "安康市",
+        "city_id": "6109"
+    },
+    {
+        "province_name": "陕西省",
+        " province_id": "61",
+        "city_name": "商洛市",
+        "city_id": "6110"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "兰州市",
+        "city_id": "6201"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "嘉峪关市",
+        "city_id": "6202"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "金昌市",
+        "city_id": "6203"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "白银市",
+        "city_id": "6204"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "天水市",
+        "city_id": "6205"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "武威市",
+        "city_id": "6206"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "张掖市",
+        "city_id": "6207"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "平凉市",
+        "city_id": "6208"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "酒泉市",
+        "city_id": "6209"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "庆阳市",
+        "city_id": "6210"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "定西市",
+        "city_id": "6211"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "陇南市",
+        "city_id": "6212"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "临夏州",
+        "city_id": "6229"
+    },
+    {
+        "province_name": "甘肃省",
+        " province_id": "62",
+        "city_name": "甘南州",
+        "city_id": "6230"
+    },
+    {
+        "province_name": "青海省",
+        " province_id": "63",
+        "city_name": "西宁市",
+        "city_id": "6301"
+    },
+    {
+        "province_name": "青海省",
+        " province_id": "63",
+        "city_name": "海北州",
+        "city_id": "6322"
+    },
+    {
+        "province_name": "青海省",
+        " province_id": "63",
+        "city_name": "黄南州",
+        "city_id": "6323"
+    },
+    {
+        "province_name": "青海省",
+        " province_id": "63",
+        "city_name": "海南州",
+        "city_id": "6325"
+    },
+    {
+        "province_name": "青海省",
+        " province_id": "63",
+        "city_name": "果洛州",
+        "city_id": "6326"
+    },
+    {
+        "province_name": "青海省",
+        " province_id": "63",
+        "city_name": "玉树州",
+        "city_id": "6327"
+    },
+    {
+        "province_name": "青海省",
+        " province_id": "63",
+        "city_name": "海西州",
+        "city_id": "6328"
+    },
+    {
+        "province_name": "青海省",
+        " province_id": "63",
+        "city_name": "海东市",
+        "city_id": "6302"
+    },
+    {
+        "province_name": "宁夏回族自治区",
+        " province_id": "64",
+        "city_name": "银川市",
+        "city_id": "6401"
+    },
+    {
+        "province_name": "宁夏回族自治区",
+        " province_id": "64",
+        "city_name": "石嘴山市",
+        "city_id": "6402"
+    },
+    {
+        "province_name": "宁夏回族自治区",
+        " province_id": "64",
+        "city_name": "吴忠市",
+        "city_id": "6403"
+    },
+    {
+        "province_name": "宁夏回族自治区",
+        " province_id": "64",
+        "city_name": "固原市",
+        "city_id": "6404"
+    },
+    {
+        "province_name": "宁夏回族自治区",
+        " province_id": "64",
+        "city_name": "中卫市",
+        "city_id": "6405"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "乌鲁木齐市...",
+        "city_id": "6501"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "克拉玛依市...",
+        "city_id": "6502"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "昌吉州",
+        "city_id": "6523"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "博尔塔拉蒙...",
+        "city_id": "6527"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "巴音郭楞蒙...",
+        "city_id": "6528"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "阿克苏地区...",
+        "city_id": "6529"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "喀什地区",
+        "city_id": "6531"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "和田地区",
+        "city_id": "6532"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "伊犁州",
+        "city_id": "6540"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "塔城地区",
+        "city_id": "6542"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "阿勒泰地区...",
+        "city_id": "6543"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "吐鲁番市",
+        "city_id": "6504"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "哈密市",
+        "city_id": "6505"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "克孜勒苏柯...",
+        "city_id": "6530"
+    },
+    {
+        "province_name": "新疆维吾尔自治区",
+        " province_id": "65",
+        "city_name": "自治区直辖...",
+        "city_id": "6590"
+    }
+]
