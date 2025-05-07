@@ -23,17 +23,18 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
     "X-Requested-With": "XMLHttpRequest",
 }
-categoryOne = 10
+
+#干豆类及制品
+categoryOne = 11
+categoryOneName  = "干豆类及制品"
 # 定义 categoryTwo 集合
 category_two_map = {
-    # "30": "小麦",
-    # "31": "稻米",
-    # "32": "玉米",
-    # "33": "大麦",
-    # "34": "小米、黄米",
-    # "35": "其它",
-    "36": "薯类",
-    "37": "淀粉类",
+    "39":"大豆",
+    "40":"绿豆",
+    "41":"赤豆",
+    "42":"芸豆",
+    "43":"蚕豆",
+    "44":"其它"
 }
 
 # 初始化存储所有数据的列表
