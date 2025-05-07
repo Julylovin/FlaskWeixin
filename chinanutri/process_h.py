@@ -3,8 +3,10 @@ import pandas as pd
 import time
 import random
 
-# 定义请求 URL 和请求头
+# 定义目标 URL
 url = "https://nlc.chinanutri.cn/fq/FoodInfoQueryAction!queryFoodInfoList.do"
+
+# 定义请求头
 headers = {
     "Accept": "application/json, text/javascript, */*; q=0.01",
     "Accept-Encoding": "gzip, deflate, br, zstd",
@@ -20,65 +22,82 @@ headers = {
     "Sec-Fetch-Site": "same-origin",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
     "X-Requested-With": "XMLHttpRequest",
-    "sec-ch-ua": '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"',
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": '"Windows"',
 }
-
+categoryOne = 10
 # 定义 categoryTwo 集合
 category_two_map = {
-    "30": "小麦",
-    "31": "稻米",
-    "32": "玉米",
-    "33": "大麦",
-    "34": "小米、黄米",
-    "35": "其它",
+    # "30": "小麦",
+    # "31": "稻米",
+    # "32": "玉米",
+    # "33": "大麦",
+    # "34": "小米、黄米",
+    # "35": "其它",
+    "36": "薯类",
+    "37": "淀粉类",
 }
 
-# 初始化数据列表
+# 初始化存储所有数据的列表
 all_data = []
 
-# 循环调用接口
+# 循环请求每个 categoryTwo
 for category_two_code, category_two_name in category_two_map.items():
     print(f"正在处理 categoryTwo: {category_two_name} ({category_two_code})")
 
-    # 初始化页码
-    page_num = 1
-    while True:
-        # 定义请求参数
-        payload = {
-            "categoryOne": "1",
-            "categoryTwo": category_two_code,
-            "foodName": "0",
-            "pageNum": str(page_num),  # 动态设置页码
-            "field": "0",
-            "flag": "0",
-        }
+    # 请求第一页以获取总页数
+    payload = {
+        "categoryOne": categoryOne,           # 一级分类
+        "categoryTwo": category_two_code,  # 二级分类
+        "foodName": "0",              # 食品名称，默认为 0
+        "pageNum": "1",               # 初始页码
+        "field": "0",                 # 排序字段
+        "flag": "0",                  # 标志位
+    }
 
-        try:
-            # 发送 POST 请求
+    try:
+        response = requests.post(url, headers=headers, data=payload)
+        response.raise_for_status()  # 检查请求是否成功
+        data = response.json()       # 解析 JSON 数据
+
+        # 提取总页数
+        total_pages = int(data.get("totalPages", 1))
+        print(f"categoryTwo: {category_two_name}, 总页数：{total_pages}")
+
+        # 如果没有数据，跳到下一个 categoryTwo
+        if total_pages == 0:
+            print(f"categoryTwo: {category_two_name} 没有数据，跳到下一个。")
+            continue
+
+        # 循环请求所有页数
+        for page_num in range(1, total_pages + 1):
+            print(f"正在请求 categoryTwo: {category_two_name}, 第 {page_num} 页...")
+
+            # 更新请求参数中的页码
+            payload["pageNum"] = str(page_num)
+
+            # 发送请求
             response = requests.post(url, headers=headers, data=payload)
-            response.raise_for_status()  # 检查请求是否成功
-            data = response.json()  # 解析 JSON 数据
+            response.raise_for_status()
+            page_data = response.json()
 
-            # 提取数据
-            food_data = data.get("data", [])
-            if not food_data:  # 如果当前页没有数据，跳出循环
-                print(f"categoryTwo: {category_two_name} 已无更多数据，跳到下一个。")
-                break
+            # 提取当前页数据
+            food_data = page_data.get("list", [])
+            if not food_data:
+                print(f"categoryTwo: {category_two_name}, 第 {page_num} 页无数据。")
+                continue
 
             # 添加 categoryTwo 和名称
             for item in food_data:
-                item["categoryTwoCode"] = category_two_code
-                item["categoryTwoName"] = category_two_name
+                item.append(categoryOne)  # 添加 categoryTwoCode 到最后一列
+                item.append(category_two_code)  # 添加 categoryTwoCode 到最后一列
+                item.append(category_two_name)  # 添加 categoryTwoName 到最后一列
                 all_data.append(item)
 
-            print(f"成功获取 categoryTwo: {category_two_name}, 第 {page_num} 页数据。")
-            page_num += 1  # 页码自增
-            time.sleep(random.uniform(1, 3))  # 随机延迟 1-3 秒，避免请求过快被封禁
-        except requests.exceptions.RequestException as e:
-            print(f"请求过程中出现错误：{e}")
-            break
+            # 随机延迟 1-3 秒，避免触发反爬机制
+            time.sleep(random.uniform(1, 3))
+
+    except requests.exceptions.RequestException as e:
+        print(f"请求过程中出现错误：{e}")
+        continue
 
 # 将数据保存到 Excel 文件
 if all_data:
@@ -86,9 +105,9 @@ if all_data:
     df = pd.DataFrame(all_data)
 
     # 导出到 Excel 文件
-    output_file = "food_info_with_category_two.xlsx"
+    output_file = f"food_{categoryOne}.xlsx"
     try:
-        df.to_excel(output_file, index=False, engine="openpyxl")
+        df.to_excel(output_file, index=False, engine="openpyxl", header=False)  # 不添加默认表头
         print(f"所有数据已成功导出到 {output_file}")
     except Exception as e:
         print(f"保存 Excel 文件时出现错误：{e}")
