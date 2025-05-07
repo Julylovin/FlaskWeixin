@@ -31,8 +31,8 @@ for file_name in os.listdir(data_folder):
     if not (file_name.endswith(".xlsx") or file_name.endswith(".xls")):
         continue  # 跳过非 Excel 文件
     # 如果已经读取了 3 个文件，则停止
-    if file_count >= 3:
-        break
+    # if file_count >= 3:
+    #     break
 
     file_path = os.path.join(data_folder, file_name)
 
